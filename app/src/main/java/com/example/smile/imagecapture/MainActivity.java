@@ -1,10 +1,12 @@
 package com.example.smile.imagecapture;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    ImageView imv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
